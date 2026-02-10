@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "LavaSR"
+version = "0.0.2"
+authors = [
+  { name="Yatharth Sharma", email="yatharthsharma3501@gmail.com" },
+]
+description = "Fast speech restoration"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "torch",
+    "vocos",
+]
+
+[project.urls]
+Homepage = "https://github.com/ysharma3501/LavaSR"
+Issues = "https://github.com/ysharma3501/LavaSR/issues"
