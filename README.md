@@ -29,7 +29,7 @@ from LavaSR.model import LavaEnhance
 
 ## change device to your torch device type(cuda, mps, etc.)
 device = 'cpu'
-lava_model = LavaEnhance("modelpath", device)
+lava_model = LavaEnhance("YatharthS/LavaSR", device)
 ```
 
 #### Simple inference
