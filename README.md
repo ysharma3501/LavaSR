@@ -1,4 +1,18 @@
 # 🌋 LavaSR
+# LuxTTS
+<p align="center">
+  <a href="https://huggingface.co/YatharthS/LavaSR">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-FFD21E" alt="Hugging Face Model">
+  </a>
+  &nbsp;
+  <a href="https://huggingface.co/spaces/YatharthS/LavaSR">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue" alt="Hugging Face Space">
+  </a>
+  &nbsp;
+  <a href="https://colab.research.google.com/drive/17wzpZ1nH_BrDsSfZ0JiZNdf4OH-zsfs2?usp=sharing">
+    <img src="https://img.shields.io/badge/Colab-Notebook-F9AB00?logo=googlecolab&logoColor=white" alt="Colab Notebook">
+  </a>
+</p>
 
 
 LavaSR is a lightweight and high quality speech enhancement model that enhances low quality audio with noise into clean crisp audio with speeds reaching roughly 4000x realtime on GPU and 50x realtime on CPU.
