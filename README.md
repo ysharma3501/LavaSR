@@ -25,6 +25,24 @@ https://github.com/user-attachments/assets/988c3726-eb6f-4877-93b9-cd5f0f488f8e
 - Efficency: Just uses 500mb vram and potentially less.
 - Universal input: Supports any input sampling rate from 8khz to 48khz.
 
+### Why is this useful?
+* Enhancing TTS: LavaSR can enhance TTS(text-to-speech) model quality considerably with nearly 0 computational cost.
+* Real-time enhancement: NovaSR allows for on device enhancement of any low quality calls, audio, etc. while using little memory.
+* Restoring datasets: NovaSR can enhance audio quality of any audio dataset.
+
+
+### Comparisons
+
+Comparisons were done on A100 gpu. Higher realtime means faster processing speeds.
+
+| Model         | Speed (Real-Time) | Model Size |
+| :------------ | :---------------- | :--------- |
+| **LavaSR** | **4000x realtime** | **~50 MB** |
+| AP-BWE      | 300x realtime        | ~70 MB     |
+| FlowHigh      | 80x realtime        | ~450 MB     |
+| FlashSR       | 14x realtime        | ~1000 MB     |
+| AudioSR       | 0.6x realtime    | ~2000 MB     |
+
 ## Usage
 You can try it locally, colab, or spaces.
 
