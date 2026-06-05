@@ -11,10 +11,15 @@
   <a href="https://colab.research.google.com/drive/17wzpZ1nH_BrDsSfZ0JiZNdf4OH-zsfs2?usp=sharing">
     <img src="https://img.shields.io/badge/Colab-Notebook-F9AB00?logo=googlecolab&logoColor=white" alt="Colab Notebook">
   </a>
+  &nbsp;
+  <a href="https://arxiv.org/abs/2603.07285">
+    <img src="https://img.shields.io/badge/arXiv-2603.07285-B31B1B.svg" alt="arXiv Paper">
+  </a>
 </p>
 
-
 LavaSR is a lightweight and high quality speech enhancement model that enhances low quality audio with noise into clean crisp audio with speeds reaching roughly 5000x realtime on GPU and over 60x realtime on CPU.
+
+**Interspeech acceptance**: LavaSR v2's paper has been accepted to main track Interspeech 2026!
 
 **LavaSR v2 just released**: Massive increase in quality and speed, surpassing 6gb slow diffusion models. Check it out!
 
@@ -115,7 +120,8 @@ sf.write('output.wav', output_audio, 48000)
 - [C++ implementation](https://github.com/Topping1/LavaSRcpp): Purely C++ implementation for LavaSR.
 - [Onnx implementation](https://github.com/Topping1/LavaSR-ONNX): Clean and simple Onnx implementation for LavaSR.
 - [ONNX Embedded](https://github.com/idocinthebox/LavaSR-ONNX-Embedded): ONNX runtime with weights embedded in graph, DirectML/NPU support, and export script.
-
+- [FalAI demo](https://fal.ai/models/fal-ai/lava-sr): LavaSR demo hosted by FalAI
+  
 Thanks to the community for building on top of the model!
 
 ## Info
